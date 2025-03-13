@@ -29,8 +29,8 @@ A secure framework for executing AI-generated code in isolated sandbox environme
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/daytona-goose-openai-test.git
-cd daytona-goose-openai-test
+git clone https://github.com/yourusername/daytona-goose.git
+cd daytona-goose
 
 # Create a virtual environment and install dependencies
 uv venv
@@ -42,8 +42,8 @@ uv pip install -e .
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/daytona-goose-openai-test.git
-cd daytona-goose-openai-test
+git clone https://github.com/yourusername/daytona-goose.git
+cd daytona-goose
 
 # Create a virtual environment and install dependencies
 python -m venv venv
@@ -180,4 +180,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 💬 Support
 
-If you encounter any issues or have questions, please [open an issue](https://github.com/yourusername/daytona-goose-openai-test/issues) on GitHub.
+If you encounter any issues or have questions, please [open an issue](https://github.com/yourusername/daytona-goose/issues) on GitHub.

@@ -1,5 +1,5 @@
 [project]
-name = "daytona-goose-openai-test"
+name = "daytona-goose"
 version = "0.1.0"
 description = "A simple project using Daytona sandbox, Goose for load testing, and OpenAI for code generation."
 readme = "README.md"
