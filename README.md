@@ -6,8 +6,6 @@ A secure framework for executing AI-generated code in isolated sandbox environme
 - **[Goose](https://github.com/block/goose-plugins)** - An open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
 - **[OpenAI](https://openai.com)** - LLM capabilities for code generation
 
-![Architecture Diagram](docs/goose-code-execution.png)
-
 ## 🚀 Features
 
 - Execute Python code in secure, isolated Daytona workspaces
