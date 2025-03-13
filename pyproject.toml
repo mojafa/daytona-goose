@@ -1,0 +1,20 @@
+[project]
+name = "daytona-goose-openai-test"
+version = "0.1.0"
+description = "A simple project using Daytona sandbox, Goose for load testing, and OpenAI for code generation."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "requests>=2.25.1",
+    "python-dotenv>=1.0.1",
+    "openai>=1.63.2",
+    "goose-ai==0.9.11",
+    "daytona-sdk==0.10.2"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
