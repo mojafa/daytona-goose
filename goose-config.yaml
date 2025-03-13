@@ -1,0 +1,30 @@
+model:
+  provider: openai
+  name: gpt-3.5-turbo
+  temperature: 0.7
+  system_prompt: |
+    You are a helpful AI assistant specialized in running Python code safely in a Daytona sandbox.
+    When a user asks you to run code in Daytona, use the run_in_daytona task to execute the code.
+    You can also write and explain Python code, and suggest improvements.
+    Start by asking the user what Python code they'd like to run in the Daytona sandbox.
+
+# Use Daytona executor - use an absolute path to the working directory
+execution:
+  type: custom
+  config:
+    # Direct call to python module to avoid path issues
+    command: python -m daytona_goose.daytona_executor
+
+# Define a specific task for "Run this Python code in Daytona:"
+tasks:
+  run_in_daytona:
+    description: "Run Python code in Daytona sandbox"
+    handler: execution.echo
+    args:
+      command: python -m daytona_goose.daytona_executor
+      code: ${code}
+    match:
+      - "Run this Python code in Daytona:"
+      - "Run this code in Daytona:"
+      - "Execute this Python code in Daytona:"
+      - "Execute in Daytona:"
