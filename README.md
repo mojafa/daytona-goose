@@ -3,7 +3,7 @@
 A secure framework for executing AI-generated code in isolated sandbox environments. This project integrates:
 
 - **[Daytona](https://app.daytona.io)** - A secure, isolated sandbox for code execution
-- **[Goose](https://github.com/goose-ai/goose)** - An AI agent for code generation and testing
+- **[Goose](https://github.com/block/goose-plugins)** - An open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
 - **[OpenAI](https://openai.com)** - LLM capabilities for code generation
 
 ![Architecture Diagram](docs/goose-code-execution.png)
