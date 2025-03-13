@@ -19,8 +19,7 @@ A secure framework for executing AI-generated code in isolated sandbox environme
 - Python 3.12+
 - Daytona account with API key
 - OpenAI API key
-- Goose AI (optional, for conversational interface)
-
+- block/goose-plugins
 ## 📦 Installation
 
 ### Using UV (recommended)
